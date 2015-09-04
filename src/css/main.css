@@ -6,13 +6,20 @@ body {
 p {
     color: whitesmoke;
     font-family: consolas;
+    font-size: 18px;
 }
 
 h1 {
     color: whitesmoke;
     font-family: fantasy;
     text-shadow: 2px 2px 4px #dadeff;
+}
 
+h3 {
+    color: whitesmoke;
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px #dadeff;
 }
 
 .img-thumbnail{
@@ -60,21 +67,22 @@ h1 {
 }
 
 .UFlogo {
-    height: 50%;
-    width: 50%;
-    align: "left";
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 60%;
+    width: 60%;
+    padding: 25px;
 }
 
 .IPPDlogo{
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
+    padding: 25px;
+}
+
+.UFBlock{
     align: "left";
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 150px;
+    margin-right: 25px;
     padding: 25px;
 }
 
@@ -92,23 +100,46 @@ h1 {
 }
 
 .OrlandoCityLogo{
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
     padding: 25px;
 }
 
 .RowdiesLogo{
-    height: 25%;
-    width: 25%;
+    height: 30%;
+    width: 30%;
+    padding: 25px;
+}
+
+.RowdiesPic{
+    height: 50%;
+    width: 50%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding: 25px;
 }
 
 .SoccerBlock{
     align: "left";
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 222px;
+    margin-right: 20px;
     padding: 25px;
+}
+
+.Fishing1{
+    height: 40%;
+    width: 40%;
+    padding: 5px;
+    transform: rotate(180deg);
+}
+
+.Fishing2{
+    height: 40%;
+    width: 40%;
+    padding: 5px;
 }
 
 

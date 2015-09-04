@@ -21,6 +21,106 @@
     <link rel="shortcut icon" href="http://www.online-assault.com/z_other/Shogun2/Mons/Kiso.png">
 </head>
 <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Kenan Tufekci BIO</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="hobbies.html">Hobbies</a></li>
+                    <li><a href="#">Family</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+
+    <!-- Bottom Page -->
+    <div class="row">
+        <div class="col-md-9 col-md-push-3">
+            <h1>Kenan Tarik Tufekci</h1>
+            <a href="doc/KENAN%20TARIK%20TUFEKCI%20-%20Resume%20-%20(08-12-2015).pdf" download="KenanTufekciResume.pdf">
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Download My Resume
+                </button>
+            </a>
+
+            <a href="doc/KENAN%20TARIK%20TUFEKCI%20-%20Curriculum%20Vitae%20-%20(08-12-2015).pdf" download="KenanTufekciCV">
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Download My CV
+                </button>
+            </a>
+            <p></p>
+        <img src="http://static1.squarespace.com/static/5537d371e4b0dab0f3fee903/553fce1fe4b021aa55fe7604/553fd64fe4b0f8be7d8f6418/1430247216178/?format=500w" class="OrlandoCityLogo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tampa_Bay_Rowdies_logo_(two_green_stars).svg/2000px-Tampa_Bay_Rowdies_logo_(two_green_stars).svg.png" class="RowdiesLogo">
+        </div>
+        <!-- Sidebar -->
+        <div class="col-md-3 col-md-pull-9">
+            <img src="img/Resume%20Picture.jpg" class="img-thumbnail">
+            <a href="https://www.facebook.com/kenantariktufekci"><img src="img/webicon-facebook.svg" class="icon"></a>
+            <a href="https://www.linkedin.com/pub/kenan-tufekci/a5/b4b/684"><img src="img/webicon-linkedin.svg" class="icon"></a>
+            <a href="https://plus.google.com/u/0/108748034157635093314"><img src="img/webicon-googleplus.svg" class="icon"></a>
+            <a href="https://github.com/kenantufekci"><img src="img/webicon-github.svg" class="icon"></a>
+
+            <div ng-repeat="merchant in merchants">
+                <div class="followrow">
+                    <a ng-click="toggleImage(merchant)"><img id="followbutton" ng-src="{{merchant.imgUrl}}"  />
+                    </a>
+                </div>
+            </div>
+
+            <!-- List Items -->
+            <div class="list-group">
+                <div class="list-group">
+                    <h4 class="list-group-item-heading">Address</h4>
+                    <p class="list-group-item-text">
+                    <p>2500 NW 54th Terr.</p>
+                    <p>Gainesville, FL 32606</p>
+                    </p>
+                    <h4 class="list-group-item-heading">Phone</h4>
+                    <p class="list-group-item-text">
+                    <p>(352)507-9630</p>
+                    </p>
+                    </p>
+                    <h4 class="list-group-item-heading">Email</h4>
+                    <p class="list-group-item-text">
+                    <p>kenantt@ufl.edu</p>
+                    </p>
+                    </p>
+                    <h4 class="list-group-item-heading">School</h4>
+                    <p class="list-group-item-text">
+                    <p>University of Florida</p>
+                    </p>
+                    </p>
+                    <h4 class="list-group-item-heading">Degree</h4>
+                    <p class="list-group-item-text">
+                    <p>B.S. Degree</p>
+                    <p>Computer Science and Engineering</p>
+                    </p>
+                    </p>
+                    <h4 class="list-group-item-heading">GPA</h4>
+                    <p class="list-group-item-text">
+                    <p>3.64</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="foundation-5.5.2/js/foundation.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
 </body>
 </html>

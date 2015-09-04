@@ -1,0 +1,62 @@
+body {
+    padding-top: 70px;
+    background-image: url("../img/background.jpg");
+}
+
+p {
+    color: whitesmoke;
+    font-family: consolas;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.img-thumbnail{
+    height: 84%;
+    width: 84%;
+    align: "center";
+}
+
+.JabilPic{
+    height: 25%;
+    width: 25%;
+    align: "left";
+}
+
+.JabilLogo{
+    height: 25%;
+    width: 25%;
+    align: "left";
+}
+
+.LockheedLogo {
+    height: 25%;
+    width: 25%;
+    align: "left";
+}
+
+.UFlogo {
+    height: 25%;
+    width: 25%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.LockheedPic {
+    height: 25%;
+    width: 25%;
+    align: "left";
+}
+
+.icon {
+    height: 20%;
+    width: 20%;
+}
+
+
+

@@ -24,7 +24,7 @@ var expectedFilesInDistDir = [
 
     'css/', // for directories, a `/` character
             // should be included at the end
-        'css/main.css',
+        'css/style.css',
         'css/normalize.css',
 
     'doc/',
@@ -46,7 +46,7 @@ var expectedFilesInDistDir = [
     'index.html',
 
     'js/',
-        'js/main.js',
+        'js/script.js',
         'js/plugins.js',
         'js/vendor/',
             'js/vendor/jquery-' + pkg.devDependencies.jquery + '.min.js',

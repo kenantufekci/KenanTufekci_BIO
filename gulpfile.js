@@ -97,13 +97,13 @@ gulp.task('copy:license', function () {
                .pipe(gulp.dest(dirs.dist));
 });
 
-gulp.task('copy:main.css', function () {
+gulp.task('copy:style.css', function () {
 
     var banner = '/*! HTML5 Boilerplate v' + pkg.version +
                     ' | ' + pkg.license.type + ' License' +
                     ' | ' + pkg.homepage + ' */\n\n';
 
-    return gulp.src(dirs.src + '/css/main.css')
+    return gulp.src(dirs.src + '/css/style.css')
                .pipe(plugins.header(banner))
                .pipe(plugins.autoprefixer({
                    browsers: ['last 2 versions', 'ie >= 8', '> 1%'],
@@ -120,7 +120,7 @@ gulp.task('copy:misc', function () {
 
         // Exclude the following files
         // (other tasks will handle the copying of these files)
-        '!' + dirs.src + '/css/main.css',
+        '!' + dirs.src + '/css/style.css',
         '!' + dirs.src + '/index.html'
 
     ], {
